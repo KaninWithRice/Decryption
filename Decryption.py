@@ -11,6 +11,7 @@ print(Fore.LIGHTYELLOW_EX + "By: Mishal Noroña".center(40," ") )
 letter_input = input(Fore.CYAN + "Enter the text you want to decrypt:")
 letter_output = ""
 # check each character
+for x in range(len(letter_input)):
 # if *, change to a
 # if &, change to e
 # if #, change to i
