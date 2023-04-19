@@ -19,6 +19,8 @@ for x in range(len(letter_input)):
     elif letter_input[x] == "&":
         letter_output += "e"
 # if #, change to i
+    elif letter_input[x] == "#":
+        letter_output += "i" 
 # if +, change to o
 # if !, change to u
 # add loading time
