@@ -1,5 +1,8 @@
 # Mohammad Mishal S. Noroña | BSCPE 1-5 | PROBLEM 2 – DECRYPTION
 # add Color to the program
+import colorama
+from colorama import Fore, Back, Style
+colorama.init()
 # add introduction
 # ask user for input
 # check each character
