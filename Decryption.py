@@ -16,6 +16,8 @@ for x in range(len(letter_input)):
     if letter_input[x] == "*":
         letter_output += "a"
 # if &, change to e
+    elif letter_input[x] == "&":
+        letter_output += "e"
 # if #, change to i
 # if +, change to o
 # if !, change to u
