@@ -4,6 +4,9 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init()
 # add introduction
+print("")
+print(Fore.LIGHTYELLOW_EX + "WELCOME TO THE PROGRAM".center(40," ") )
+print(Fore.LIGHTYELLOW_EX + "By: Mishal Noroña".center(40," ") )
 # ask user for input
 # check each character
 # if *, change to a
