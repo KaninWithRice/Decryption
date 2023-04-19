@@ -62,3 +62,4 @@ def animation():
 
 animation()
 # print output
+print (Fore.LIGHTMAGENTA_EX + Style.BRIGHT + Back.LIGHTWHITE_EX + letter_output)
