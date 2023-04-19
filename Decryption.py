@@ -25,6 +25,10 @@ for x in range(len(letter_input)):
     elif letter_input[x] == "+":
         letter_output += "o"
 # if !, change to u
+    elif letter_input[x] == "!":
+        letter_output += "u"
+    else:
+        letter_output += letter_input[x]
 # add loading time
 # add animation
 # print output
