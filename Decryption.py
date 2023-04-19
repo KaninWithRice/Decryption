@@ -13,6 +13,8 @@ letter_output = ""
 # check each character
 for x in range(len(letter_input)):
 # if *, change to a
+    if letter_input[x] == "*":
+        letter_output += "a"
 # if &, change to e
 # if #, change to i
 # if +, change to o
