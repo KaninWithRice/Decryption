@@ -22,6 +22,8 @@ for x in range(len(letter_input)):
     elif letter_input[x] == "#":
         letter_output += "i" 
 # if +, change to o
+    elif letter_input[x] == "+":
+        letter_output += "o"
 # if !, change to u
 # add loading time
 # add animation
