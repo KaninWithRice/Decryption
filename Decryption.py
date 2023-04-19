@@ -8,6 +8,8 @@ print("")
 print(Fore.LIGHTYELLOW_EX + "WELCOME TO THE PROGRAM".center(40," ") )
 print(Fore.LIGHTYELLOW_EX + "By: Mishal Noroña".center(40," ") )
 # ask user for input
+letter_input = input(Fore.CYAN + "Enter the text you want to decrypt:")
+letter_output = ""
 # check each character
 # if *, change to a
 # if &, change to e
